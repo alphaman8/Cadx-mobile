@@ -1,0 +1,282 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B02F61B2-AC26-4E32-BF4B-C54368772E8E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cadx</RootNamespace>
+    <AssemblyName>Cadx</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>4118C335-430C-497f-BE48-11C3316B135E</PlatformID>
+    <OSVersion>5.1</OSVersion>
+    <DeployDirSuffix>Cadx</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 5.0 Pocket PC SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GeoFramework.Gps.PocketPC, Version=3.0.1.20859, Culture=neutral, PublicKeyToken=d77afaeb30e3236a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\GPS.NET 3.0.2\bin\Debug\CF35\GeoFramework.Gps.PocketPC.dll</HintPath>
+    </Reference>
+    <Reference Include="GeoFramework.PocketPC, Version=2.0.1.20720, Culture=neutral, PublicKeyToken=d77afaeb30e3236a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\GPS.NET 3.0.2\bin\Debug\CF35\GeoFramework.PocketPC.dll</HintPath>
+    </Reference>
+    <Reference Include="InTheHand.Net.Personal, Version=3.0.2.0, Culture=neutral, PublicKeyToken=ea38caa273134499, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\InTheHand.Net.Personal.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windowsce.Forms" />
+    <Reference Include="Microsoft.WindowsMobile.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="mscorlib" />
+    <Reference Include="mysql.data.cf, Version=6.0.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\mysql-connector-net-6.0.7-noinstall\mysql.data.cf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ButtonImage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonImage.Designer.cs">
+      <DependentUpon>ButtonImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CIPDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CIPFormGPS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CipTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="db\citeluzDataSet.cs">
+      <DependentUpon>citeluzDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db\usersDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>usersDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginDialog.Designer.cs">
+      <DependentUpon>LoginDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="db\citeluzDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>citeluzDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Encrypt.cs" />
+    <Compile Include="ExportaDados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportaDados.Designer.cs">
+      <DependentUpon>ExportaDados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LatLon.cs" />
+    <Compile Include="Library.cs" />
+    <Compile Include="Material.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Material.Designer.cs">
+      <DependentUpon>Material.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MysqlLoginDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MysqlLoginDialog.Designer.cs">
+      <DependentUpon>MysqlLoginDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plaqueta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plaqueta.Designer.cs">
+      <DependentUpon>Plaqueta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CIPDialog.resx">
+      <DependentUpon>CIPDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportaDados.resx">
+      <DependentUpon>ExportaDados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginDialog.resx">
+      <DependentUpon>LoginDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Material.resx">
+      <DependentUpon>Material.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MysqlLoginDialog.resx">
+      <DependentUpon>MysqlLoginDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plaqueta.resx">
+      <DependentUpon>Plaqueta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInicial.resx">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trafo.resx">
+      <DependentUpon>Trafo.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TelaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaInicial.Designer.cs">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trafo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trafo.Designer.cs">
+      <DependentUpon>Trafo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\PFTConverters.dll">
+      <Link>PFTConverters.dll</Link>
+    </Content>
+    <Content Include="..\..\PFTCoordinateTransformer.dll">
+      <Link>PFTCoordinateTransformer.dll</Link>
+    </Content>
+    <Content Include="..\..\PFTGPSReceiver.dll">
+      <Link>PFTGPSReceiver.dll</Link>
+    </Content>
+    <Content Include="..\..\PFTSSFWriter.dll">
+      <Link>PFTSSFWriter.dll</Link>
+    </Content>
+    <Content Include="db\citeluz.sdf">
+    </Content>
+    <Content Include="db\users.sdf">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="db\citeluzDataSet.xsc">
+      <DependentUpon>citeluzDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db\citeluzDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>citeluzDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db\citeluzDataSet.xss">
+      <DependentUpon>citeluzDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db\usersDataSet.xsc">
+      <DependentUpon>usersDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db\usersDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>usersDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db\usersDataSet.xss">
+      <DependentUpon>usersDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="PFTConverters">
+      <Guid>{97A77042-E489-4118-9F7C-C9DD2A222DBC}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>35</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="PFTCoordinateTransformer">
+      <Guid>{51DADFEF-BE8C-46A2-A0FF-EEFE76630BB4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>35</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="PFTGPSReceiver">
+      <Guid>{294B2645-0FEC-4636-BA83-E2D8AD1CB9D7}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>35</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="PFTSSFWriter">
+      <Guid>{4C5FBB33-0F00-4C16-A76D-D133016003AB}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>35</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
