@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Cadx">
+</Property><Property Name="Solution File" Value="C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Cadx.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Cadx.suo">
+</Property><Property Name="Date" Value="Sunday, January 03, 2016">
+</Property><Property Name="Time" Value="19:59 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Cadx.sln" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Cadx.suo" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx.suo">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Cadx.csproj" Description="Project file successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Cadx.csproj">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Cadx.csproj.user" Description="Project user file successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Cadx.csproj.user">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\ButtonImage.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\ButtonImage.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\ButtonImage.Designer.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\ButtonImage.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\CIPDialog.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\CIPDialog.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\CIPFormGPS.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\CIPFormGPS.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\CipTextBox.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\CipTextBox.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\db\citeluzDataSet.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\db\citeluzDataSet.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\db\usersDataSet.Designer.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\db\usersDataSet.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\LoginDialog.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\LoginDialog.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\LoginDialog.Designer.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\LoginDialog.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\db\citeluzDataSet.Designer.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\db\citeluzDataSet.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Encrypt.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Encrypt.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\ExportaDados.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\ExportaDados.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\ExportaDados.Designer.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\ExportaDados.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\LatLon.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\LatLon.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Library.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Library.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Material.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Material.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Material.Designer.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Material.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\MysqlLoginDialog.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\MysqlLoginDialog.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\MysqlLoginDialog.Designer.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\MysqlLoginDialog.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Plaqueta.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Plaqueta.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Plaqueta.Designer.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Plaqueta.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Program.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Program.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\TelaInicial.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\TelaInicial.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\TelaInicial.Designer.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\TelaInicial.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Trafo.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Trafo.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Trafo.Designer.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Trafo.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Usuario.cs" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Usuario.cs">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\ClassDiagram1.cd" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\ClassDiagram1.cd">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\db\citeluzDataSet.xsc" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\db\citeluzDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\db\citeluzDataSet.xsd" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\db\citeluzDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\db\citeluzDataSet.xss" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\db\citeluzDataSet.xss">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\db\usersDataSet.xsc" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\db\usersDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\db\usersDataSet.xsd" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\db\usersDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\db\usersDataSet.xss" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\db\usersDataSet.xss">
+</Event><Event ErrorLevel="1" Project="Cadx" Source="..\PFTConverters.dll" Description="Backed up project may not build.  Project contains linked file: C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\PFTConverters.dll">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="..\PFTConverters.dll" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\PFTConverters.dll">
+</Event><Event ErrorLevel="1" Project="Cadx" Source="..\PFTCoordinateTransformer.dll" Description="Backed up project may not build.  Project contains linked file: C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\PFTCoordinateTransformer.dll">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="..\PFTCoordinateTransformer.dll" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\PFTCoordinateTransformer.dll">
+</Event><Event ErrorLevel="1" Project="Cadx" Source="..\PFTGPSReceiver.dll" Description="Backed up project may not build.  Project contains linked file: C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\PFTGPSReceiver.dll">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="..\PFTGPSReceiver.dll" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\PFTGPSReceiver.dll">
+</Event><Event ErrorLevel="1" Project="Cadx" Source="..\PFTSSFWriter.dll" Description="Backed up project may not build.  Project contains linked file: C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\PFTSSFWriter.dll">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="..\PFTSSFWriter.dll" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\PFTSSFWriter.dll">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\db\citeluz.sdf" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\db\citeluz.sdf">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\db\users.sdf" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\db\users.sdf">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\CIPDialog.resx" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\CIPDialog.resx">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\ExportaDados.resx" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\ExportaDados.resx">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\LoginDialog.resx" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\LoginDialog.resx">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Material.resx" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Material.resx">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\MysqlLoginDialog.resx" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\MysqlLoginDialog.resx">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Plaqueta.resx" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Plaqueta.resx">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Properties\Resources.resx" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\TelaInicial.resx" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\TelaInicial.resx">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Trafo.resx" Description="File successfully backed up as C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Backup\Cadx\Trafo.resx">
+</Event><Event ErrorLevel="0" Project="Cadx" Source="Cadx\Cadx.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Cadx" Source="Cadx\Cadx.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="Cadx" Source="Cadx\Cadx.csproj" Description="The project file 'C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\Cadx\Cadx\Cadx.csproj' cannot be opened.&#xA;&#xA;The project type is not supported by this installation.">
+</Event><Event ErrorLevel="0" Project="" Source="Cadx.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Cadx.sln" Description="Converted">
+</Event></UpgradeLog>
